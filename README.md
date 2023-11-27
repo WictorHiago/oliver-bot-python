@@ -15,7 +15,7 @@ Oliver é um bot em Python desenvolvido com api da openai
 # update linux
 sudo apt update
 
-# create local envirment
+# create local enviroment
 python3 -m venv .venv
 source .venv/bin/activate
 
