@@ -63,7 +63,7 @@ python src/main.py
 <h2>SHOTS</h2>
 
 <p align="center">
-<img src="https://github.com/WictorHiago/oliver-bot-python/blob/main/assets/shot1.png" with="40%" alt="shot1">
+<img src="https://github.com/WictorHiago/oliver-bot-python/blob/main/assets/shot1.png" width="60%" alt="shot1">
 </p>
 
 <p align="center">
