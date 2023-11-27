@@ -2,6 +2,23 @@ from dotenv import load_dotenv
 from pathlib import Path
 import os
 
+logo_bot = """
+________________________________________________________________________________________________________
+
+ ▄██████▄   ▄█        ▄█   ▄█    █▄     ▄████████    ▄████████      ▀█████████▄   ▄██████▄      ███     
+███    ███ ███       ███  ███    ███   ███    ███   ███    ███        ███    ███ ███    ███ ▀█████████▄ 
+███    ███ ███       ███▌ ███    ███   ███    █▀    ███    ███        ███    ███ ███    ███    ▀███▀▀██ 
+███    ███ ███       ███▌ ███    ███  ▄███▄▄▄      ▄███▄▄▄▄██▀       ▄███▄▄▄██▀  ███    ███     ███   ▀ 
+███    ███ ███       ███▌ ███    ███ ▀▀███▀▀▀     ▀▀███▀▀▀▀▀        ▀▀███▀▀▀██▄  ███    ███     ███     
+███    ███ ███       ███  ███    ███   ███    █▄  ▀███████████        ███    ██▄ ███    ███     ███     
+███    ███ ███▌    ▄ ███  ███    ███   ███    ███   ███    ███        ███    ███ ███    ███     ███     
+ ▀██████▀  █████▄▄██ █▀    ▀██████▀    ██████████   ███    ███      ▄█████████▀   ▀██████▀     ▄████▀   
+           ▀                                        ███    ███                                          
+________________________________________________________________________________________________________        
+        Developed by: WHIAGO https://github.com/WictorHiago
+        Bot Version: 1.0 | Python 3.10 | openai 1.3.5
+"""
+
 
 load_dotenv()
 openai_key = os.getenv("OPENAI_KEY")
@@ -38,10 +55,12 @@ def create_speech():
         speed=1.0
     )
 
+    print("Successfully created speech!")
+
     response.stream_to_file(speech_file_path)
 
 # ---RUN TEST create_speech---
-# create_speech()
+create_speech()
 # ----------------------------------------------
 
 # TRANSCRIBE AUDIO TO LANGUAGES ru|en|fr|es|de|it ...
@@ -57,8 +76,8 @@ def create_transcript():
     return transcript
 
 # ---RUN TEST create_transcript---
-audio_transcript = create_transcript()
-print(audio_transcript)
+# audio_transcript = create_transcript()
+# print(audio_transcript)
 # ----------------------------------------------
 
 # TRANSLATE AUDIO TO ENGLISH
@@ -78,4 +97,18 @@ def whisper():
 # print(whisper_response)
 # ----------------------------------------------
 
+if __name__ == "__main__":
+    print(logo_bot)
+    print("""
+Oliver say: Hello! How can I help you?
 
+1. Transcribe audio to text
+2. Translate audio to another language
+3. Create audio from text
+4. Translate text
+5. Exit
+
+Enter the number of the desired option and press Enter:
+
+""")
+    pass
