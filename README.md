@@ -60,4 +60,13 @@ python src/main.py
 
 ```
 
+<h2>SHOTS</h2>
+
+<p align="center">
+<img href="" alt="shot1">
+</p>
+
+<p align="center">
+<img href="" alt="shot2">
+</p>
 <span>More functions in development</span>
