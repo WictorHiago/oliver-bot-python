@@ -13,7 +13,7 @@ Oliver é um bot em Python desenvolvido com api da openai
 <h2>API_KEY OPENAI</h2>
 <h3>Necessário ter Créditos ou Assinatura</h3>
 <p>Você precisa ter uma chave de api da OpenAI
-visitando o site oficial <a href="https://openai.com/" target="blank">
+visitando o site oficial <a href="https://openai.com/" target="blank">openai</a>
 você facilmente obtem tem acesso a documentação caso queira saber mais sobre a API</p>
 
 ```
@@ -23,7 +23,7 @@ OPENAI_KEY=COLOQUE_SUA_API_KEY_AQUI
 ```
 
 <h2>Documentação oficial OpenAI</h2>
-<a href="https://platform.openai.com/docs/introduction" target="blank">
+<a href="https://platform.openai.com/docs/introduction" target="blank">documentação</a>
 
 <h2>Install</h2>
 
