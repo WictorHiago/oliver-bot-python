@@ -63,10 +63,10 @@ python src/main.py
 <h2>SHOTS</h2>
 
 <p align="center">
-<img href="https://github.com/WictorHiago/oliver-bot-python/blob/main/assets/shot1.png" with="40%" alt="shot1">
+<img src="https://github.com/WictorHiago/oliver-bot-python/blob/main/assets/shot1.png" with="40%" alt="shot1">
 </p>
 
 <p align="center">
-<img href="https://github.com/WictorHiago/oliver-bot-python/blob/main/assets/shot2.png" width="40%" alt="shot2">
+<img src="https://github.com/WictorHiago/oliver-bot-python/blob/main/assets/shot2.png" width="40%" alt="shot2">
 </p>
 <span>More functions in development</span>
