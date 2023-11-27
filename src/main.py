@@ -42,8 +42,8 @@ def chat_completion(message:str):
     return response.choices[0].message.content
 
 # ---RUN TEST chat_completion---
-# gpt_response = chat_completion("how to lean python fast?")
-# print(gpt_response)
+gpt_response = chat_completion("What is the name of Brian's car in fast and furious 1")
+print(gpt_response)
 # ----------------------------------------------
 
 def create_speech():
