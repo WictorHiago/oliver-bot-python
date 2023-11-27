@@ -17,6 +17,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________________        
         Developed by: WHIAGO https://github.com/WictorHiago
         Bot Version: 1.0 | Python 3.10 | openai 1.3.5
+        Linkedin: https://linkedin.com/in/dev-wictor-hiago
 """
 
 
@@ -60,7 +61,7 @@ def create_speech():
     response.stream_to_file(speech_file_path)
 
 # ---RUN TEST create_speech---
-create_speech()
+# create_speech()
 # ----------------------------------------------
 
 # TRANSCRIBE AUDIO TO LANGUAGES ru|en|fr|es|de|it ...
