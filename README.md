@@ -37,6 +37,8 @@ source .venv/bin/activate
 
 pip install openai
 pip install python-dotenv
+pip install requests
+pip install Pillow
 
 # verify functions for test
 ## example: create audio in format mp3 from input text
